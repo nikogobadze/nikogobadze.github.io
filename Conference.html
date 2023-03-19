@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conference</title>
+</head>
+<style>
+    body {
+        text-align: center;
+        background: #c4e1fa;
+        font-size: 19px;
+        font-style: italic;
+    }
+    h1 {
+        font-size: 40px;
+        margin-top: 45px;
+        margin-bottom: 15px;
+        color: rgb(0, 0, 0);
+    }
+    h2 {
+        font-size: 25px;
+        color: rgb(0, 0, 0);
+    }
+    .center {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    hr {
+        border: 1px solid rgb(0, 0, 0);
+        width: 65%;
+    }
+    .logo-div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo {
+        width: 70px;
+        height: 70px;
+        background-color: #Ffbcdf;
+        border-radius: 50%;
+    }
+    .hide {
+        display: none;
+        margin-left: 20px;
+    }
+    .logo {
+        cursor: pointer;
+        font-style: normal;
+    }
+    .logo:hover + .hide {
+        display: block;
+    }
+    .text-div {
+        width: 65%;
+        background: #Ffe8f2;
+        color: hsl(326, 100%, 32%);
+        font-weight: bolder;
+        font-size: 100%;
+        border-radius: 5%;
+    }
+    .info {
+        list-style-type: none;
+        margin-top: 30px;
+    }
+    .info li {
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    span {
+        font-size: 30px;
+        margin-right: 25px;
+    }
+    marquee {
+        width: 200px;
+        font-size: 20px;
+    }
+</style>
+<body class="center">
+    <div class="logo-div">
+        <div class="logo center">&#10005;</div>
+        <h3 class="hide">Japanese Culture</h3>
+    </div>
+    <div class="center">
+        <h1>JAPAN</h1>
+        <h2>Korea under Japanese rule</h2>
+        <hr/>
+        <h4>description</h4>
+        <div class="text-div">
+            <p>Korea was ruled as a part of the Empire of Japan from 1910 to 1945. 
+                Joseon, a tributary state of the Qing dynasty, had come into the Japanese 
+                sphere of influence with the Japan-Korea Treaty of 1876; a complex coalition 
+                of the Meiji goverment, military and business officials began a process of integrating
+                Korea's politics and economy with Japan.</p>
+        </div>
+        <ul class="info">
+            <li><span>&#9993;</span>cultureofjapan@gmail.com</li>
+        </ul>
+        <marquee>19.03.2023</marquee>
+    </div>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Card</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: grey;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            margin: 50px;
+        }
+        .head {
+            background-color: #046f3c;
+            width: 300px;
+            height: 290px;
+            border-radius: 20px 20px 0px 0px;
+        }
+        .body {
+            width: 300px;
+            height: 150px;
+            background-color: white;
+            border-radius: 0px 0px 20px 20px;
+        }
+        .text {
+            margin: 10px;
+            display: flex;
+            flex-direction: column;
+            height: 100px;
+        }
+        .buyButton {
+            width: 270px;
+            height: 45px;
+            background-color: #3483FA;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            font-size: 20px;
+            border-radius: 5px 5px 5px 5px;
+            user-select: none;
+            cursor: pointer;
+            font-family: 'Roboto', sans-serif;
+            color: white;
+            transition: ease-in-out;
+            margin-top: -30px;
+        }
+        .buyButton:hover {
+            background: #072269;
+            transition: ease-in-out;
+        }
+        .texts div {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="head"></div>
+        <div class="body">
+            <div class="text">
+                <div style="font-size:25px; font-weight: bold; color: #000000">$1.290<sup>00</sup></div>
+                <div style="color: #626262">ATH_M50x</div>
+                <div style="font-size: 15px; font-weight: lighter; color: #626262;">1634 Cimmaron Road Irvine, CA 92614</div>
+            </div>
+            <div style="width: inherit; display: flex; align-items: center; justify-content: center;">
+                <div class="buyButton">Buy</div>
+            </div>
+        </div>
+    </div>  
+</body>
+</html>
